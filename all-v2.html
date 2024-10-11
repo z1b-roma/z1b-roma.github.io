@@ -47,11 +47,23 @@
             font-size: 1rem;
             padding: 0.5rem;
         }
-        .sort-container {
+        /*.sort-container {
             display: flex;
             justify-content: space-between;
             padding: 0.5rem 1rem;
             border-bottom: 1px solid #e0e0e0;
+        }*/
+        .sort-container {
+            /*display: flex;*/
+            display: grid;
+            /*grid-template-columns: 1fr 1fr 1fr;*/
+            grid-template-columns: auto 70px 70px;
+            gap: 10px;
+            /*justify-content: space-between;
+            align-items: center;*/
+            padding: 0.5rem 1rem;
+            border-bottom: 1px solid #e0e0e0;
+            cursor: pointer;
         }
         .sort-button {
             background: none;
@@ -79,7 +91,7 @@
             /*display: flex;*/
             display: grid;
             /*grid-template-columns: 1fr 1fr 1fr;*/
-            grid-template-columns: auto 50px 50px;
+            grid-template-columns: auto 70px 70px;
             gap: 10px;
             /*justify-content: space-between;
             align-items: center;*/
@@ -190,7 +202,7 @@
                     Palazzina/Scala <span class="sort-icon"></span>
                 </button> -->
                 <p>
-                    Palazzina-Scala 
+                    Pal.-Sc. 
                 </p>
             </div>
         </header>
